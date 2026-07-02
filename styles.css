@@ -103,6 +103,7 @@ input:focus, textarea:focus {
 
 .title--two {
     font-size: 120px;
+    margin-top: 24px;
     margin-bottom: 12px;
     text-align: left;
     line-height: 1;
@@ -194,6 +195,22 @@ header {
     min-height: 100vh;
 }
 
+.about-me__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,.16);
+    margin-bottom: 28px;
+    animation: animate-profile-picture 1s 200ms;
+}
+
+.about-me__picture {
+    width: 100%;
+    transform: scale(1.1);
+    padding-top: 8px;
+}
+
 .header {
     position: absolute;
     top: 50%;
@@ -202,6 +219,7 @@ header {
     width: 100%;
     max-width: 1000px;
     padding: 0 30px;
+    margin-top: 32px;
 }
 
 .header__para {
@@ -501,7 +519,7 @@ nav {
 .section__title {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .project__img {
